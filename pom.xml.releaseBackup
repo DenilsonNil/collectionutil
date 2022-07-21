@@ -5,13 +5,18 @@
 
     <groupId>io.github.denilsonnil</groupId>
     <artifactId>collection-util</artifactId>
-    <version>1.2.SNAPSHOT</version>
+    <version>1.5-SNAPSHOT</version>
 
     <packaging>jar</packaging>
 
     <name>Collection Util</name>
     <description>Lib utilitária para trabalhar com coleções em Java.</description>
     <url>https://github.com/DenilsonNil/collectionutil</url>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
 
     <scm>
         <connection>scm:git:https://github.com/DenilsonNil/collectionutil.git</connection>
@@ -64,7 +69,6 @@
                     <pushChanges>false</pushChanges>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -73,7 +77,6 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
@@ -126,13 +129,5 @@
                 </configuration>
             </plugin>
         </plugins>
-
-
     </build>
-
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-    </properties>
-
 </project>
