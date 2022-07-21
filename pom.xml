@@ -5,7 +5,7 @@
 
     <groupId>io.github.denilsonnil</groupId>
     <artifactId>collection-util</artifactId>
-    <version>1.6-SNAPSHOT</version>
+    <version>1.6</version>
 
     <packaging>jar</packaging>
 
@@ -22,7 +22,7 @@
         <connection>scm:git:https://github.com/DenilsonNil/collectionutil.git</connection>
         <developerConnection>scm:git:https://github.com/DenilsonNil/collectionutil.git</developerConnection>
         <url>https://github.com/DenilsonNil/collectionutil</url>
-      <tag>HEAD</tag>
+      <tag>v1.6</tag>
   </scm>
 
     <licenses>
